@@ -12,5 +12,3 @@
 7.  Abra um Pull Request no GitHub.
 8.  **Validação 1:** Observe a aba "Checks" do Pull Request. O workflow deve rodar e falhar, pois o método `subtrair` está com erro lógico. O GitHub exibirá um "X" vermelho.
 9.  **Validação 2:** Corrija a lógica do método `subtrair` (altere `a + b` para `a - b`), faça um novo commit e um `git push`. O PR será atualizado automaticamente, os testes passarão e o ícone ficará verde, sinalizando que é seguro realizar o Merge.
-
-.
